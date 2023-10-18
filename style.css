@@ -1,0 +1,121 @@
+
+body {
+  font-family: courier;
+  font-style:oblique;
+  background: linear-gradient(to right, #d9a7c7, #fffcdc);
+  
+  
+}
+.merch {
+  color: black;
+}
+
+.container {
+  padding: 0 60px;
+  margin-left: 100px;
+
+
+
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  font-family: courier;
+  font-style:oblique;
+  padding: 0 40px;
+  border: 1px ;
+  padding:5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+ 
+}
+
+h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 200px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+  
+}
+
+.contact-info {
+    float: left;
+    width: 50%;
+    background-color: inear-gradient(to right, #d9a7c7, #fffcdc);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-me {
+    float: left;
+    width: 50%;
+    background-color: inear-gradient(to right, #d9a7c7, #fffcdc);;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+    margin-bottom: 20px;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    font-size: 18px;
+    color: #555;
+  }
+  .button {
+      background-color: #ff99cc; 
+      font-size: 20px;
+      font-weight: normal;
+      font-family: courier;
+      color: black;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+
+    
+}
+
+
+
+.photo:hover {
+  border: 3px white;
+}
+
+a {
+  display: block;
+  text-decoration:none;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+
+a:hover {
+  color:black;
+}
+
+  
+a::after {
+  content: '';
+  width: 300px;
+}
+
